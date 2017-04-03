@@ -1,0 +1,570 @@
+F/**PHP Styles**/
+
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Orbitron', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	padding: 15px;
+}
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+	font-family: 'Muli', sans-serif;
+  line-height:2.5em;
+}
+a {
+	text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+
+/* ---- Header---- */
+
+.name {
+	font-size: 1.2em;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.name a, .main-nav a {
+	display: inline;
+	text-align: center;
+	padding: 10px 15px;
+	margin: 0;
+}
+.main-nav a {
+	font-size: .95em;
+	color: #fff;
+	text-transform: uppercase;
+}
+.lo {
+	width: 500px;
+	height: 350px;
+	border: 10px dashed #002a48;
+	margin-bottom: 15px;
+  padding: 10px;
+}
+.main-nav a.selected {
+ color:  #bb271c;
+} 
+.main-nav a:hover {
+	color: #cf6760;
+	{
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+.main-nav a {
+	color: #82b2c3;
+}
+.comments {
+	text-align: center;
+	margin: auto;
+}
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	color: #82b2c3;
+}
+.ulti {
+	width: 85px;
+	height: 35px;
+	float: left;
+	padding: -5px;
+	margin: 0;
+	display: block;
+}
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	color: #82b2c3;
+}
+.tagline {
+	color: #fff;
+	font-size: 1.4em;
+	background: /* On "top" */
+	repeating-linear-gradient( 45deg, transparent, transparent 10px, #c13c32 20px, #c13c32 15px), /* on "bottom" */
+	linear-gradient( to bottom, #82b2c3, #999);
+	padding: .2em;
+	margin-bottom: 0px;
+	width: 100%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+/* ----Contact Page---- */
+
+.barbers {
+	font-size: 1.2em;
+	font-family: 'Orbitron', sans-serif;
+	color: #59596a;
+}
+h1, h3 {
+	text-align: center;
+}
+.header {
+	font-family: 'Orbitron', sans-serif;
+	padding: 15px;
+	font-size: 1.4em;
+}
+.facebook{
+  line-height: .1em;
+} 
+.facefoot{
+  line-height: .1em;
+}
+.maurice p,.john p, .quinn p {
+  line-height: .2em;
+}
+.maur {
+	width: 100%;
+	height: 250px;
+	border-radius: 20%;
+	border: 9px groove #9b0000;
+}
+.map{
+  width:100%;
+}
+.sec, .secs {
+	text-align: center;
+}
+
+/* ----About---- */
+
+.barbpa {
+	border: 10px dotted #002a48;
+}
+.about p {
+	font-family: 'Muli', sans-serif;
+	padding-top: 15px;
+  line-height: 2.5em;
+  padding-left: 15px;
+}
+.abouth {
+	padding: 5px;
+}
+.aboutpic {
+	height: 250px;
+  margin: 5px 20px;
+  display:block;
+	border: 10px groove rgba(19, 43, 102, .85);
+	border-spacing: 15px;
+}
+.quinnpa,.mauricepa,.johnpa{
+  width: 100%;
+}
+.barbpa {
+	height: 250px;
+	width: 100%;
+	padding: 15px;
+	display: block;
+}
+
+
+/* ----SERVICE---- */
+
+table, th, td {
+	color: #000;
+	font-size: 1.1em;
+	border: 2px solid;
+	border-color: #000;
+	padding: 15px;
+	width: 60%;
+	margin: 0 auto;
+}
+th, td {
+	text-align: left;
+}
+th {
+	background-color: #7a7a7a;
+	color: #000;
+	font-size: 1.6em;
+	letter-spacing: 3px;
+}
+tr:nth-child(2) {
+	background-color: #c13c32;
+}
+tr:nth-child(4) {
+	background-color: #82b2c3;
+}
+tr:nth-child(6) {
+	background-color: #c13c32;
+}
+tr:nth-child(8) {
+	background-color: #82b2c3;
+}
+tr:nth-child(10) {
+	background-color: #c13c32;
+}
+tr:nth-child(12) {
+	background-color: #82b2c3;
+}
+tr:nth-child(14) {
+	background-color: #c13c32;
+}
+th {
+	margin: 60px;
+}
+tr {
+	text-align: center;
+	font-size: 1em;
+}
+h2 {
+	text-align: center;
+}
+
+/* ----Testimonials---- */
+
+.test {
+	border: 5px dotted #c13c32;
+	margin: 15px;
+	padding: 0 5px 0 10px;
+	background-color: #d9e4ea;
+}
+h4 {
+	color: #4682b4;
+}
+
+/* ----Style---- */
+
+.style {
+	width: 100%;
+	height: 350px;
+	border-radius: 30%;
+	border-spacing: 20px;
+	border: 7px dashed #cf6760;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Orbitron', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	padding: 15px;
+}
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+	font-family: 'Muli', sans-serif;
+	text-align: left;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+a:link {
+	color: #82b2c3;
+	font-family: 'Orbitron', sans-serif;
+}
+a:visited {
+	color: #82b2c3;
+}
+
+/* ----Footer---- */
+
+.footer-nav a:hover {
+	color: #cf6760;
+	text-decoration: underline;
+}
+.footer-nav a.selected {
+	color: #bb271c;
+	{
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+.main-footer {
+	background: #d9e4ea;
+}
+
+.footerp {
+  text-align:center;
+}
+/* ---- Page Elements ---- */
+
+.icon-location {
+	width: 35px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	z-index: 2;
+}
+#myBtn {
+	z-index: 99;
+	/* Make sure it does not overlap */
+	cursor: pointer;
+	/* Add a mouse pointer on hover */
+	border-radius: 10px;
+	/* Rounded corners */
+}
+#myBtn:hover {
+	background-color: #cf6760;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width:760px) {
+	body {
+		padding-top: 68px;
+	}
+	/* ----Home---- */
+	.main-header {
+		position: fixed;
+		background: #fff;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+		width: 97.65%;
+		top: 0;
+		z-index: 1000;
+    padding-right:0;
+	}
+	.main-nav {
+		display: inline;
+		margin-left: 15px;
+	}
+	.primarycol {
+		width: 60%;
+		float: left;
+	}
+	.secondarycol {
+		width: 35%;
+		float: right;
+	}
+	.lo{
+  margin-bottom: 5px;
+}
+	.space {
+		margin-bottom: 150px;
+	}
+	.main-nav {
+		float: right;
+	}
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+		padding: 5px;
+	}
+	.name {
+		font-size: 3em;
+	}
+	/* ----CLEARFIX---- */
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+	/* ----SERVICE---- */
+
+.work {
+	float: left;
+	width: 33%;
+}
+.supreme {
+	display: inline-block;
+	width: 33%;
+}
+.ultimate {
+	float: right;
+	width: 33%;
+}
+
+/*------Contact----*/
+
+.barbers {
+	padding: 25px;
+}
+.quinn {
+	width: 33%;
+	float: left;
+	padding-left: 25px;
+	padding-right: 45px;
+}
+.john {
+	width: 33%;
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 45px;
+}
+.maurice {
+	width: 33%;
+	float: right;
+	padding-right: 25px;
+	padding-left: 45px;
+}
+
+.secs, .sec {
+	display: inline-block;
+	padding: 15px;
+	text-align: center;
+	margin-left: 200px;
+}
+
+/* ----Testimonials ---- */
+
+.testimony1 {
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+.testimony2 {
+	width: 50%;
+	float: right;
+	padding: 10px;
+}
+
+/* ---- Page Elements ---- */
+
+.icon-location {
+	width: 35px;
+	position: absolute;
+	top: -15px;
+	right: -15px;
+	z-index: 2;
+}
+body {
+	padding-top: 68px;
+}
+.primarycol p {
+	padding-left: 25px;
+}
+.logo {
+	display: inline;
+	padding-left: 25px;
+	margin: 0 0 0 15px;
+	float: left;
+}
+
+/*---Styles--*/
+
+.thumbnail:hover {
+	position: relative;
+	top: -25px;
+	left: -35px;
+	width: 500px;
+	height: auto;
+	display: block;
+	z-index: 999;
+}
+.stylecol1 p, .stylecol2 p {
+	font-size: 1.3em;
+}
+.stylecol1 {
+	width: 50%;
+	float: left;
+	padding-left: 150px;
+}
+.style {
+	width: 350px;
+}
+.stylecol2 {
+	padding-left: 100px;
+	width: 50%;
+	float: right;
+}
+
+/*----About---- */
+
+.quinnpa {
+	float: left;
+	width: 30%;
+	height: 250px;
+	padding-right: 25px;
+	padding-left: 20px;
+}
+.mauricepa {
+	display: inline-block;
+	width: 30%;
+	height: 250px;
+	padding-left: 80px;
+}
+.johnpa {
+	float: right;
+	width: 30%;
+	height: 250px;
+	padding-right: 50px;
+}
+.barbpa {
+	height: 400px;
+	width: 40%;
+	margin: 2%;
+  float:right;
+}
+
+/* ----FOOTER---- */
+  footer{
+  position:relative;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:<length>;
+ }
+
+.main-footer{
+  width:100%;
+  height:100%;
+}
+.footer-nav {
+	padding-left: 325px;
+	border-bottom-color: #000;
+}
+.footer-nav li {
+	display: inline-block;
+	margin-left: 15px;
+}
+.footerp {
+  display:inline-block;
+  text-align:right;
+  padding-left:420px;
+
+}
+.footp {
+	width: 40%;
+  float:left;
+  padding-left:100px;
+}
+.footp2 {
+	width: 40%;
+  float:right;
+  padding-left:100px;
+}
+.footer-nav a {
+	color: #82b2c3;
+}
+.map {
+	width: 100%;
+}
+	.ultilo {
+		margin: 10px;
+		padding: 5px;
+	}
+	/* ----CLEARFIX----*/
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
